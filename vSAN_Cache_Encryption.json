@@ -1,0 +1,1 @@
+{"2b96811b-e9a9-4631-99e1-79ae87ecee72":{"resourceKinds":[{"resourceKindKey":"CacheDisk","adapterKindKey":"VirtualAndPhysicalSANAdapter"}],"modificationTime":1553780947539,"name":"vSAN Cache Disk Encryption Status","formula":"count(${this, attribute=ConfigurationProperties|Size, where = \"ConfigurationProperties|vsan|encryption equals Enabled\"})","description":""}}
